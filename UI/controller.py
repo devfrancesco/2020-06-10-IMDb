@@ -3,22 +3,18 @@ import flet as ft
 
 class Controller:
     def __init__(self, view, model):
-        # the view, with the graphical elements of the UI
+        # I riferimenti alla view e al model vengono passati all'atto della creazione nel main
         self._view = view
-        # the model, which implements the logic of the program and holds the data
         self._model = model
-
-    def fillDDGenre(self):
-        pass
 
     def handleCreaGrafo(self, e):
         pass
 
-    def handleRegistiAdiacenti(self, e):
+    def handleAttoriSimili(self, e):
         pass
 
-    def handleCercaRegistiAffini(self, e):
+    def handleSimulazione(self, e):
         pass
 
-    def handleCammino(self,e):
+    def fillDDGeneri(self):
         pass
