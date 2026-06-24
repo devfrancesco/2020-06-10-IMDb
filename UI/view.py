@@ -33,6 +33,7 @@ class View(ft.UserControl):
         self._dd_genere = ft.Dropdown(label="Genere (g)", hint_text="Seleziona un genere", width=300)
         self._btn_crea_grafo = ft.ElevatedButton(text="Crea Grafo", on_click=self._controller.handleCreaGrafo,
                                                  width=200)
+        self._controller.fillDDGeneri()
 
         row1 = ft.Row([self._dd_genere, self._btn_crea_grafo],
                       alignment=ft.MainAxisAlignment.CENTER,
